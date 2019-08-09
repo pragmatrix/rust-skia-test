@@ -1,0 +1,11 @@
+[package]
+name = "rust-skia-test"
+version = "0.1.0"
+authors = ["Armin Sander <armin@replicator.org>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+skia-safe = { version = "0.14", features = ['shaper'] }
+
