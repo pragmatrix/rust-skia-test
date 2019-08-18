@@ -11,5 +11,5 @@ svg = ['skia-safe/svg']
 vulkan = ['skia-safe/vulkan']
 
 [dependencies]
-skia-safe = { version = "0.14", features = [] }
+skia-safe = { version = "0", features = [] }
 
